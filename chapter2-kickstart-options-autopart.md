@@ -4,7 +4,7 @@
 
 一个root分区，一个swap分区，一个符合架构体系的boot分区。在足够大的硬盘上，还会创建一个 /home 分区
 
-[stop_medium_size.png](images/stop_medium_size.png?30) autopart命令不能与part/partion,raid,volgroup或logvol命令在同一个KickstartFile中互斥。
+> [stop_medium_size.png](../images/stop_medium_size.png?30) autopart命令不能与part/partion,raid,volgroup或logvol命令在同一个KickstartFile中互斥。
 
   + `--type=<type>`
     + 选择自动分区机制(schema)。type值必须为下列之一：lvm,btrfs,plain,thinp. Plain是指非btrfs或lvm的常规分区。

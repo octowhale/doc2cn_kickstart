@@ -1,7 +1,7 @@
 ## firstboot 
 设置设置代理程序(Setup Agent)是否在系统初次启动时运行。如果为enabled，则必须安装initial-stup包必须被安装。如果没指定，设置代理(initial-setup)默认为disabled。
 
- firstboot --enable|--disable|--reconfig 
+ firstboot --enable--disable--reconfig 
   + --enable 或者 --enabled
     + 系统第一次启动时，运行设置代理程序。
   + --disable or --disabled

@@ -7,11 +7,11 @@
 
 每个%post必须以%end结尾。
 
-|{{:images:stop_medium_size_.png?30|STOP_IMG}} 如果你使用静态IP配置网络，包括一个nameserver，你可以在%post区块中访问网络并解析主机名(resolve ip address)。如果你使用DHCP配置网络，在执行%post区块时/etc/resolv.conf还不完全，你可以访问网络，但是不能解析主机名。因此，如果你使用DHCP，你必须之在%post区块中指定IP地址。|
+> [STOP_IMG](./images/stop_medium_size.png?30) 如果你使用静态IP配置网络，包括一个nameserver，你可以在%post区块中访问网络并解析主机名(resolve ip address)。如果你使用DHCP配置网络，在执行%post区块时/etc/resolv.conf还不完全，你可以访问网络，但是不能解析主机名。因此，如果你使用DHCP，你必须之在%post区块中指定IP地址。
 
-|{{:images:stop_medium_size_.png?30|STOP_IMG}} 如果你的脚本会产生一个守护进程，那么你必须关闭stdout和stderr。这是创建守护进程的标准步骤。如果你不关闭这个文件描述符，安装过程会被挂起直到scripts执行完毕。|
+> [STOP_IMG](./images/stop_medium_size.png?30) 如果你的脚本会产生一个守护进程，那么你必须关闭stdout和stderr。这是创建守护进程的标准步骤。如果你不关闭这个文件描述符，安装过程会被挂起直到scripts执行完毕。
 
-|{{:images:stop_medium_size_.png?30|STOP_IMG}} post-install脚本在chroot环境中执行，因此类似复制脚本或安装RPMs之类的任务执行时将会失效。|
+> [STOP_IMG](./images/stop_medium_size.png?30) post-install脚本在chroot环境中执行，因此类似复制脚本或安装RPMs之类的任务执行时将会失效。
 
   + --nochroot
     + 指定该选项后，允许命令在chroot环境外执行。
@@ -56,5 +56,5 @@ cp /etc/resolv.conf /mnt/sysimage/etc/resolv.conf
 
 
 
-|{{:images:stop_medium_size_.png?30|STOP_IMG}} 如果通过livecd-creator工具运行kickstart，你应该将/mnt/sysimage换成$INSTALL_ROOT
+> [STOP_IMG](./images/stop_medium_size.png?30) 如果通过livecd-creator工具运行kickstart，你应该将/mnt/sysimage换成$INSTALL_ROOT
 

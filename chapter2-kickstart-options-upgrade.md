@@ -1,7 +1,7 @@
 ## upgrade 
 
 
-| {{:images:important.png?30|IMPORTANT_IMG}}  Fedora 18及更新系统需要注意，anaconda将不再支持使用upgrades。取而代之的是使用FedUp，一款Fedora更新工具。 |
+>  [IMPORTANT_IMG](./images/important.png?30)  Fedora 18及更新系统需要注意，anaconda将不再支持使用upgrades。取而代之的是使用FedUp，一款Fedora更新工具。 
 
 告诉系统进行升级，而不是重装一个新系统。你必须指定安装树的位置，如cdrom,harddrive,nfs或者url(/ftp/http)。参考install的详细信息。
 

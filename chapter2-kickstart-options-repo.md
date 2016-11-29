@@ -9,7 +9,7 @@
 ```bash
 
 
-repo --name=<name> [--baseurl=<url>|--mirrorlist=<url>] [options]
+repo --name=<name> [--baseurl=<url>--mirrorlist=<url>] [options]
 
 
 ```

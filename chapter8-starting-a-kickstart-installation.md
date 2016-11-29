@@ -3,7 +3,7 @@
 
 在开始kickstart安装前，你必须通过Fedora或RHEL的引导盘启动系统，并在引导提示符数据特殊的启动命令；其中引导盘包括各自的软盘启动盘、光盘启动盘、光盘一号盘。为了进入引导提示符界面，你必须在显示CD or DVD启动菜单时按ESC键。如果你还不懂，那就看图吧。如果将ks命令行参数传递给了内核，安装系统会查找KickstartFile文件。
 
-{{:kickstart:fedora_boot_screen.png?800|FEDORA_BOOT_SCREEN}}
+[FEDORA_BOOT_SCREEN](./images/fedora_boot_screen.png?800)
 
 
 ## 软盘启动 
@@ -11,13 +11,9 @@
 如果在软盘启动盘上找到了KickstartFile文件(如第六章创建软盘启动部分描述)，那么从软盘引导启动系统，并在引导提示符界面输入以下命令：  
 
 ```bash
-
-
 linux ks=floppy
 
-
 ```
-
 
 
 ## CD-ROM #1 和 软盘 
@@ -28,9 +24,7 @@ Linux命令ks=floppy同样对软盘上的vfat和ext2文件系统上的ks.cfg有�
 
 ```bash 
 
-
 linux ks=hd:fd0:/ks.cfg
-
 
 ```
 
@@ -42,9 +36,7 @@ linux ks=hd:fd0:/ks.cfg
 
 ```bash
 
-
 linux ks=floppy dd
-
 
 ```
 
@@ -56,9 +48,7 @@ linux ks=floppy dd
 
 ```bash
 
-
 linux ks=cdrom:<device>:/ks.cfg
-
 
 ```
 

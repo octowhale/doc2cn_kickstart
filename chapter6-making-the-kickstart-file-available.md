@@ -62,5 +62,5 @@ server-name "blarg.redhat.com"
 当anaconda通过网络请求kickstart时，他包含了几个用户HTTP头(custom HTTP headers)：
 X-Anaconda-Architecture: x86_64  表示将安装系统的系统结构。   
 X-Anaconda-System-Release: Fedora  表示将安装的系统的发行版。  
-另外还有2个可选header，为kernel命令行的两个选项 [kssendsn](http://fedoraproject.org/wiki/Anaconda/Options#kssendmac|kssendmac]] 和 [[http://fedoraproject.org/wiki/Anaconda/Options#kssendmac)
+另外还有2个可选header，为kernel命令行的两个选项 [kssendsn](http://fedoraproject.org/wiki/Anaconda/Options#kssendmackssendmac]] 和 [[http://fedoraproject.org/wiki/Anaconda/Options#kssendmac)
 

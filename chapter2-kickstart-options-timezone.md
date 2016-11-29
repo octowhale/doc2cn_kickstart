@@ -8,9 +8,9 @@ timezone [--utc] <timezone>
   + --utc
     + 如果使用该项，则系统将认为设备时间为UTC(格林威治)时间。
 
-| {{:images:idea.png?30|IDEA_IMG}} 可以通过一下两种方式获取有效时区，1) 运行该脚本: http://vpodzime.fedorapeople.org/timezones_list.py ; 2) 查看该列表: http://vpodzime.fedorapeople.org/timezones_list.txt |
+>  [IDEA_IMG](./images/idea.png?30) 可以通过一下两种方式获取有效时区，1) 运行该脚本: http://vpodzime.fedorapeople.org/timezones_list.py ; 2) 查看该列表: http://vpodzime.fedorapeople.org/timezones_list.txt 
 
-| {{:images:important.png?30|IMPORTANT_IMG}} 从Fedora 18开始，timezone命令有了两个新选项： |
+>  [IMPORTANT_IMG](./images/important.png?30) 从Fedora 18开始，timezone命令有了两个新选项： 
 
 timezone [--utc] [--nontp] [--ntpservers=<server1>,<server2>,...,<serverN>] <timezone>
 

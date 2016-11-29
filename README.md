@@ -1,6 +1,8 @@
 # kickstart 系统安装软件官方文档汉化
 
-[kickstart原文地址](http://fedoraproject.org/wiki/Anaconda/Kickstart.md)
+> author: [tangx.in](http://tangx.in)
+> github: [doc2cn_kickstart](https://github.com/octowhale/doc2cn_kickstart/)
+> [kickstart原文地址](http://fedoraproject.org/wiki/Anaconda/Kickstart.md)
 
 [第一章 kickstart简介](chapter1-introduction.md)   
   + [什么是Kickstart安装工具](chapter1-introduction.md#什么是Kickstart安装工具)   

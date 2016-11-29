@@ -8,7 +8,7 @@
 ```bash
 
 
-selinux [--disabled|--enforcing|--permissive]
+selinux [--disabled--enforcing--permissive]
 
 
 ```

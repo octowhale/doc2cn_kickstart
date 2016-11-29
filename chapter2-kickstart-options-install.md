@@ -5,7 +5,7 @@
 为设备安装一个全新的系统，而非对已有的系统进行升级。默认模式。
 必须为安装程序指定来源，cdrom、硬盘、nfs或者url(如果支持ftp/http安装)。安装命令与安装方法命令必须以竖线分割。
 
-| {{:images:important.png?30|}}  Fedora18及以后版本系统需要注意，anaconda不再对其支持升级操作。替代工具为，Fedora升级工具的FedUp。  |
+>  [](./images/important.png?30)  Fedora18及以后版本系统需要注意，anaconda不再对其支持升级操作。替代工具为，Fedora升级工具的FedUp。  
 
 ### cdrom 
 
@@ -17,13 +17,13 @@
 
 ]  
 
-从本地硬盘上的ISO镜像目录安装系统，硬盘文件系统必须为vfat或者ext2。在目录中，你需要必须提供install.img，以使用boot.iso启动或者在ISO镜像的同级目录创建一个images目录并放入install.img。
+> 从本地硬盘上的ISO镜像目录安装系统，硬盘文件系统必须为vfat或者ext2。在目录中，你需要必须提供install.img，以使用boot.iso启动或者在ISO镜像的同级目录创建一个images目录并放入install.img。
   + --biospart
     + 指定BIOS分区安装源(如，82p2)
   + --partition
     + 分区安装源 (如，sdb2)
   + --dir
-    + 该目录包含ISO镜像和images/install.img。例如：     harddrive --partition=hdb2  *--dir=/tmp/install-tree 
+>     + 该目录包含ISO镜像和images/install.img。例如：     harddrive --partition=hdb2  *--dir=/tmp/install-tree 
 
 ### liveimg 
 
@@ -52,7 +52,7 @@
   + --server
     + 指定安装源所在的服务器(主机名或ip地址)
   + --dir
-    + 包含软件包/目录的安装程序目录树的目录。如果是通过ISO安装，该目录必须包含images/install.img。
+>     + 包含软件包/目录的安装程序目录树的目录。如果是通过ISO安装，该目录必须包含images/install.img。
   + --opts
     + 挂载NFS是所需要用到的挂载参数。可以使用任何通过/etc/fstab中挂载NFS时允许使用的参数。可以通过man 5 nfs查看选项列表。多个选项之间使用逗号隔开。如：   nfs --server=nfsserver.example.com --dir=/tmp/install-tree  
 	

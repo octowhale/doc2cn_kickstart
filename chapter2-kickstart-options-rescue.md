@@ -8,13 +8,13 @@
 ```bash
 
 
-rescue [--nomount|--romount]
+rescue [--nomount--romount]
 
 
 ```
 
 
 
-  + --nomount|--romount
+  + --nomount--romount
     + 控制系统在救援环境中的分区挂载方式。默认的，安装西会搜索系统并挂载为读写模式，并告诉你挂载位置。你可以选项不挂载或使用只读模式挂在。--nomount和--romount之间，任何时候都只能使用其中一个。
 
