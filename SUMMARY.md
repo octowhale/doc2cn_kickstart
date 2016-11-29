@@ -1,4 +1,4 @@
-# kickstart 系统安装软件官方文档汉化
+# kickstart翻译
 
 [kickstart原文地址](http://fedoraproject.org/wiki/Anaconda/Kickstart.md)
 

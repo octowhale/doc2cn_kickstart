@@ -1,0 +1,7 @@
+## zfcp 
+
+
+  *%%--%%devnum
+  *%%--%%fcplun
+  *%%--%%wwpn
+
