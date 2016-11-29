@@ -1,5 +1,7 @@
 # 第一章 kickstart简介 
+
 ## 什么是Kickstart安装工具 
+
 许多系统管理员在安装Fedora或Red Hat Enterprise Linux(RHEL)系统时，更愿意使用一种自动化安装的方法。为了满足这种需求，Red Hat开发了kickstart安装工具。通过kickstart，系统管理员可以创建一个文件--包含使用手动安装时会遇到的所有交互问题的答案。
 
 Kickstart文件(KickstartFile)可以被保存在服务端系统(server system)上，客户端安装系统时可以读取该文件。该安装工具支持在多种设备上使用一个单独的kickstartFile进行安装Fedora或RHEL，是网络和系统管理员的理想之选。
