@@ -4,10 +4,10 @@
 
 
 
-  *<partition>
-    *包含驱动盘的分区
-  *%%--%%sourc=<url>
-    *为启动盘指定一个URL。NFS可以使用该命令该位置： nfs:host:/path/to/img  
-  *%%--%%biospart=<part>
-    *包含驱动盘的BIOS分区(例如：82p2)
+  + <partition>
+    + 包含驱动盘的分区
+  + --sourc=<url>
+    + 为启动盘指定一个URL。NFS可以使用该命令该位置： nfs:host:/path/to/img  
+  + --biospart=<part>
+    + 包含驱动盘的BIOS分区(例如：82p2)
 

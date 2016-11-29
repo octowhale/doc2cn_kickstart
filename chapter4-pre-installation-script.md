@@ -8,12 +8,12 @@
 
 |{{:images:stop_medium_size_.png?30|STOP_IMG}} 注意，预安装脚本不能在chroot环境中运行。|
 
-  *%%--%%interpreter /usr/bin/python
-    *指定解释器，脚本以不同的语言执行，如python。使用其他语言请替换/usr/bin/python位置。
-  *%%--%%erroronfall
-    *如果预安装脚本出错，该选项可以产生并显示一个对话，且停止安装。该错误信息将提示错误产生位置。
-  *%%--%%log
-    *指定一个文件位置，保存脚本的所有日志。
+  + --interpreter /usr/bin/python
+    + 指定解释器，脚本以不同的语言执行，如python。使用其他语言请替换/usr/bin/python位置。
+  + --erroronfall
+    + 如果预安装脚本出错，该选项可以产生并显示一个对话，且停止安装。该错误信息将提示错误产生位置。
+  + --log
+    + 指定一个文件位置，保存脚本的所有日志。
 
 
 范例

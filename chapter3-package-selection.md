@@ -81,26 +81,26 @@ kde-i18n-*
 
 
 %packages选项可以使用以下选项
-  *%%--%%default
-    *安装默认包集合。在交换安装时，如果用户没有添加或删除安装包列表，将会安装默认包。
-  *%%--%%excludedocs
-    *不安装包中的任何文档。在大多数情况下，意味着/usr/share/doc*中的文件不会被安装。根据包的build方式不同，也可以为其他文件。
-  *%%--%%ignoremissing
-    *忽略安装在%packages区块中指定了但是在仓库中又找不到的安装包或组。默认行为是暂停(halt)安装并询问用户是否退出或继续。该选项允许全自动安装，即使出现错误也比例外。用法如下：
-	%packages %%--%%ignoremissing
-  *%%--%%instLangs
-    *指定语言安装列表。与选择安装包组不同。该选项并不是指定哪个安装包组需要被安装。相反，该项通过设置RPM宏命令(RPM macros)控制安装独立安装包的某个语言包(translation files)。注意：目前anaconda不支持该选项，不过可以通过pykickstart被某些软件(如 livecd-creator)识别。
-  *%%--%%multilib
-    *设置yum的multilib_policy为完全(all)，而不是使用默认的最优(best)。
-  *%%--%%nocore
-    *不安装@core组(默认安装)
+  + --default
+    + 安装默认包集合。在交换安装时，如果用户没有添加或删除安装包列表，将会安装默认包。
+  + --excludedocs
+    + 不安装包中的任何文档。在大多数情况下，意味着/usr/share/doc*中的文件不会被安装。根据包的build方式不同，也可以为其他文件。
+  + --ignoremissing
+    + 忽略安装在%packages区块中指定了但是在仓库中又找不到的安装包或组。默认行为是暂停(halt)安装并询问用户是否退出或继续。该选项允许全自动安装，即使出现错误也比例外。用法如下：
+	%packages --ignoremissing
+  + --instLangs
+    + 指定语言安装列表。与选择安装包组不同。该选项并不是指定哪个安装包组需要被安装。相反，该项通过设置RPM宏命令(RPM macros)控制安装独立安装包的某个语言包(translation files)。注意：目前anaconda不支持该选项，不过可以通过pykickstart被某些软件(如 livecd-creator)识别。
+  + --multilib
+    + 设置yum的multilib_policy为完全(all)，而不是使用默认的最优(best)。
+  + --nocore
+    + 不安装@core组(默认安装)
 
 |{{:images:stop_medium_size_.png?30|STOP_IMG}} 不安装核心组可能导致系统不能启动或者不能完成安装。谨慎使用。|
 
 另外，%packages区块指定安装组时，可以使用以下选项：
-  *%%--%%nodefualts
-    *只安装组中必须安装的强制报，而不是安装默认包
-  *%%--%%optional
-    *除了安装强制包和默认包之外，还将安装可选包。该项意味着所有的安装包都会被安装。
+  + --nodefualts
+    + 只安装组中必须安装的强制报，而不是安装默认包
+  + --optional
+    + 除了安装强制包和默认包之外，还将安装可选包。该项意味着所有的安装包都会被安装。
 
 

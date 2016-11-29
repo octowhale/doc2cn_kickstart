@@ -9,6 +9,6 @@ lang <id> <options>
 
 文件/usr/share/system-config-language/locale-list每行的第一列提供了有效地语言编码，也是system-config-languages包的一部分。
 
-  *%%--%%addsupport
-    *为系统指定本地语言支持，不同的语言之间使用逗号分开。每种语言以主要语言的方式指定，参见上述描述。
+  + --addsupport
+    + 为系统指定本地语言支持，不同的语言之间使用逗号分开。每种语言以主要语言的方式指定，参见上述描述。
 

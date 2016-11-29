@@ -2,11 +2,11 @@
 
 [kickstart原文地址](http://fedoraproject.org/wiki/Anaconda/Kickstart.md)
 
-[第一章 kickstart简介](chapter1-Introduction.md)   
-  + [什么是Kickstart安装工具](chapter1-Introduction.md#什么是Kickstart安装工具)   
-  + [怎样使用Kickstart进行安装](chapter1-Introduction.md#怎样使用Kickstart进行安装)   
-  + [创建KickstartFile](chapter1-Introduction.md#创建KickstartFile)   
-  + [引用硬盘时的特殊说明](chapter1-Introduction.md#引用硬盘时的特殊说明)     
+[第一章 kickstart简介](chapter1-introduction.md)   
+  + [什么是Kickstart安装工具](chapter1-introduction.md#什么是Kickstart安装工具)   
+  + [怎样使用Kickstart进行安装](chapter1-introduction.md#怎样使用Kickstart进行安装)   
+  + [创建KickstartFile](chapter1-introduction.md#创建KickstartFile)   
+  + [引用硬盘时的特殊说明](chapter1-introduction.md#引用硬盘时的特殊说明)     
 
 [第2章 Kickstart 选项](chapter2-kickstart-options.md) 
   + [authconfig](chapter2-kickstart-options-authconfig.md)  
@@ -64,8 +64,8 @@
   + [xconfig](chapter2-kickstart-options-xconfig.md)  
   + [zerombr](chapter2-kickstart-options-zerombr.md)  
   + [zfcp](chapter2-kickstart-options-zfcp.md)  
-  + [%include](chapter2-kickstart-options-_include.md)  
-  + [%ksapptend](chapter2-kickstart-options-_ksappend.md)  
+  + [%include](chapter2-kickstart-options-%include.md)  
+  + [%ksapptend](chapter2-kickstart-options-%ksappend.md)  
 
 [第3章 选择安装包](chapter3-package-selection.md) 
 

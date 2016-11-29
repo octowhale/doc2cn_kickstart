@@ -18,10 +18,10 @@ sshpw --username=<name> <password> [--iscrypted|--plaintext] [--lock]
 
 
 
-  *%%--%%username
-    *提供临时创建的用户名。必要选项。
-  *%%--%%iscrypted|%%--%%plaintext
-    *如果使用%%--%%iscrypted，则默认密码以加密。%%--%%plaintext反之，被认为密码未加密。默认值为%%--%%plaintext。
-  *%%--%%lock
-    *如果使用该选项，则新创建的将会被锁定。这样的话，该用户将不能通过控制台登陆。
+  + --username
+    + 提供临时创建的用户名。必要选项。
+  + --iscrypted|--plaintext
+    + 如果使用--iscrypted，则默认密码以加密。--plaintext反之，被认为密码未加密。默认值为--plaintext。
+  + --lock
+    + 如果使用该选项，则新创建的将会被锁定。这样的话，该用户将不能通过控制台登陆。
 

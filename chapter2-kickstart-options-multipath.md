@@ -1,5 +1,5 @@
 ## multipath 
 
 
-multipath %%--%%name= %%--%%device= %%--%%rule
+multipath --name= --device= --rule
 

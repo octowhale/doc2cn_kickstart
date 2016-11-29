@@ -13,14 +13,14 @@
 
 |{{:images:stop_medium_size_.png?30|STOP_IMG}} post-install脚本在chroot环境中执行，因此类似复制脚本或安装RPMs之类的任务执行时将会失效。|
 
-  *%%--%%nochroot
-    *指定该选项后，允许命令在chroot环境外执行。
-  *%%--%%interpreter /usr/bin/python
-    *指定执行脚本的语言，如python。使用其他语言替换/usr/bin/python
-  *%%--%%erroronfall
-    *如果追加脚本执行出错，该选项会产生一个对话并打印，且停止安装。该错误信息将提示产生错误的位置。
-  *%%--%%log
-    *将日志信息保存至指定的文件中。
+  + --nochroot
+    + 指定该选项后，允许命令在chroot环境外执行。
+  + --interpreter /usr/bin/python
+    + 指定执行脚本的语言，如python。使用其他语言替换/usr/bin/python
+  + --erroronfall
+    + 如果追加脚本执行出错，该选项会产生一个对话并打印，且停止安装。该错误信息将提示产生错误的位置。
+  + --log
+    + 将日志信息保存至指定的文件中。
 
 范例
 执行一个在NFS共享中名为runme的脚本

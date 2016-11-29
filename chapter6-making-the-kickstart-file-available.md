@@ -2,9 +2,9 @@
 
 
 KickstartFile文件必须放在以下几个位置之一：
-  *在启动磁盘上
-  *在启动CDROM上
-  *在网络位置上
+  + 在启动磁盘上
+  + 在启动CDROM上
+  + 在网络位置上
 通常情况下，KickstartFile文件会被复制到启动文件磁盘上，或在一个可用的网络位置。基于网络的方法是最常用的，大部分kickstart安装倾向于在网络环境中执行。
 现在让我们更深入的探讨一下KickstartFile文件的位置。
 
@@ -51,7 +51,7 @@ server-name "blarg.redhat.com"
 
 注意：你需要将filename后面的值替换为真实情况下的KickstartFile文件的名字(或包含KickstartFile文件的目录)；server-name后面的值为NFS服务器名。
 
-如果BOOTP/DHCP服务器返回的filename值以斜线(slash /)结尾，将只会被解释为路径。这样的话，客户端将挂载NFS系统的该路径，并搜索目标文件(particular file)。客户端搜索的文件名为：  -kickstart
+如果BOOTP/DHCP服务器返回的filename值以斜线(slash /)结尾，将只会被解释为路径。这样的话，客户端将挂载NFS系统的该路径，并搜索目标文件(particular file)。客户端搜索的文件名为：  + kickstart
 
 文件名的<ip-addr>部分应该用带句点的十进制ip地址替代。例如，客户端地址为10.10.0.1对应的文件名为10.10.0.1-kickstart
 

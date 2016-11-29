@@ -15,9 +15,9 @@ services [--disabled=<list>] [--enabled=<list>]
 
 
 
-  *%%--%%disabled
-    *服务禁用列表，各服务之间以逗号分隔。
-  *%%--%%enabled
-    *服务启用列表，各服务之间以逗号分隔。
+  + --disabled
+    + 服务禁用列表，各服务之间以逗号分隔。
+  + --enabled
+    + 服务启用列表，各服务之间以逗号分隔。
 
 
