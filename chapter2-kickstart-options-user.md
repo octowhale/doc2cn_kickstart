@@ -14,7 +14,7 @@ user --name=<username> [--gecos=<string>] [--groups=<list>] [--homedir=<homedir>
 
 
 
->  [STOP_IMG](./images/stop_medium_size.png?30) 使用Anaconda安装F19和F20时，如果不使用--password或者--lock选项，将不会为新建用户设置密码且该用户不会被锁定。这是一个bug，会在下一个版本fixed。 
+>  ![STOP_IMG](./images/stop_medium_size.png?30) 使用Anaconda安装F19和F20时，如果不使用--password或者--lock选项，将不会为新建用户设置密码且该用户不会被锁定。这是一个bug，会在下一个版本fixed。 
 
   + --name
     + 指定用户名。必要选项

@@ -2,9 +2,9 @@
 
 以下选项可以被放入KickstartFile中. 如果你愿意使用图形界面创建KickstartFile, 可以使用Kickstart Configurator工具. 
 
-> [](./images/stop_medium_size.png?30) 如果选项后接等号(=), 选项的值必须指定. 在示例命令中, [方括号]中的选项为命令可选选项.
+> ![](./images/stop_medium_size.png?30) 如果选项后接等号(=), 选项的值必须指定. 在示例命令中, [方括号]中的选项为命令可选选项.
 
-> [](./images/stop_medium_size.png?30) pykickstart程序的命令参数与shell相似。如果给命令传入参数列表(多个参数)，所有参数之间必须以英文逗号分开且不能包含多余的空格。如果多个的空格是被参数列表所需要的，那么所有参数必须被双括号括起来。如果引号、空格或其他特殊字符需要加入参数列表中，那必须这些字符进行转义。
+> ![](./images/stop_medium_size.png?30) pykickstart程序的命令参数与shell相似。如果给命令传入参数列表(多个参数)，所有参数之间必须以英文逗号分开且不能包含多余的空格。如果多个的空格是被参数列表所需要的，那么所有参数必须被双括号括起来。如果引号、空格或其他特殊字符需要加入参数列表中，那必须这些字符进行转义。
 
 
 [[ chapter2-kickstart-options-authconfig ]]  

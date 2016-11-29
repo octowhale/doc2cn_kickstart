@@ -1,7 +1,7 @@
 ## bootloader(必选) 
 
 必选命令。指出boot loader是怎么被安装的。
-> [important.png](./images/important.png?30) **BIOS引导分区**    对Fedora 16而言，必须为系统分配biosboot分区并安装GPT/GUID分区表，这样便可通过anaconda进行磁盘初始化。可以通过kickstart命令 part biosboot --fstype=biosboot --size=1  进行分区。然而，为了防止磁盘已存在一个biosboot分区，使用"part biosboot"命令并不是必须的。
+> !![important.png](./images/important.png?30) **BIOS引导分区**    对Fedora 16而言，必须为系统分配biosboot分区并安装GPT/GUID分区表，这样便可通过anaconda进行磁盘初始化。可以通过kickstart命令 part biosboot --fstype=biosboot --size=1  进行分区。然而，为了防止磁盘已存在一个biosboot分区，使用"part biosboot"命令并不是必须的。
 
   + `--append`
     + 指定内核参数。bootloader的默认设置为 "rhgb quiet"。 无论给 `--append` 传递任何参数，或者完全--append，你都将获得这个"rhgb quiet"这个参数。例如：  `bootloader --location=mbr --append="hdd=ide-scsi -ide=nodma"`

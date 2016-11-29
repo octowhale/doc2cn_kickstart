@@ -3,7 +3,7 @@
 
 在开始kickstart安装前，你必须通过Fedora或RHEL的引导盘启动系统，并在引导提示符数据特殊的启动命令；其中引导盘包括各自的软盘启动盘、光盘启动盘、光盘一号盘。为了进入引导提示符界面，你必须在显示CD or DVD启动菜单时按ESC键。如果你还不懂，那就看图吧。如果将ks命令行参数传递给了内核，安装系统会查找KickstartFile文件。
 
-[FEDORA_BOOT_SCREEN](./images/fedora_boot_screen.png?800)
+![FEDORA_BOOT_SCREEN](./images/fedora_boot_screen.png?800)
 
 
 ## 软盘启动 

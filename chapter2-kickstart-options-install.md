@@ -5,7 +5,7 @@
 为设备安装一个全新的系统，而非对已有的系统进行升级。默认模式。
 必须为安装程序指定来源，cdrom、硬盘、nfs或者url(如果支持ftp/http安装)。安装命令与安装方法命令必须以竖线分割。
 
->  [](./images/important.png?30)  Fedora18及以后版本系统需要注意，anaconda不再对其支持升级操作。替代工具为，Fedora升级工具的FedUp。  
+>  ![](./images/important.png?30)  Fedora18及以后版本系统需要注意，anaconda不再对其支持升级操作。替代工具为，Fedora升级工具的FedUp。  
 
 ### cdrom 
 

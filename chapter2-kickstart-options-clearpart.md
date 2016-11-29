@@ -2,7 +2,7 @@
 
 删除系统分区，优先创建新分区。默认情况下不删除分区。
 
-> [STOP_IMG](./images/stop_medium_size.png?30) 如果使用了clearpart命令，那么不能对逻辑分区使用 --nopart 选项。
+> ![STOP_IMG](./images/stop_medium_size.png?30) 如果使用了clearpart命令，那么不能对逻辑分区使用 --nopart 选项。
 
   + --all
     + 删除系统上所有分区。

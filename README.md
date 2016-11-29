@@ -1,7 +1,9 @@
 # kickstart 系统安装软件官方文档汉化
 
 > author: [tangx.in](http://tangx.in)
+
 > github: [doc2cn_kickstart](https://github.com/octowhale/doc2cn_kickstart/)
+
 > [kickstart原文地址](http://fedoraproject.org/wiki/Anaconda/Kickstart.md)
 
 [第一章 kickstart简介](chapter1-introduction.md)   
@@ -27,14 +29,14 @@
   + [graphical](chapter2-kickstart-options-graphical.md)  
   + [group](chapter2-kickstart-options-group.md)  
   + [halt](chapter2-kickstart-options-halt.md)  
-  + [ignoredisk](chapter2-kickstart-options-ignoredisk.md)  
-  + [install](chapter2-kickstart-options-install.md)  
+  + ![ignoredisk](chapter2-kickstart-options-ignoredisk.md)  
+  + ![install](chapter2-kickstart-options-install.md)  
     + [cdrom](chapter2-kickstart-options-install.md#cdrom)  
     + [harddrive](chapter2-kickstart-options-install.md#harddrive)  
     + [liveimg](chapter2-kickstart-options-install.md#liveimg)  
     + [nfs](chapter2-kickstart-options-install.md#nfs)  
     + [url](chapter2-kickstart-options-install.md#url)  
-  + [iscsi_iscsiname](chapter2-kickstart-options-iscsi_iscsiname.md)  
+  + ![iscsi_iscsiname](chapter2-kickstart-options-iscsi_iscsiname.md)  
   + [keyboard](chapter2-kickstart-options-keyboard.md)  
   + [lang](chapter2-kickstart-options-lang.md)  
   + [logging](chapter2-kickstart-options-logging.md)  

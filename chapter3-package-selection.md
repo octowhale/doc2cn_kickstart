@@ -95,7 +95,7 @@ kde-i18n-*
   + --nocore
     + 不安装@core组(默认安装)
 
-> [STOP_IMG](./images/stop_medium_size.png?30) 不安装核心组可能导致系统不能启动或者不能完成安装。谨慎使用。
+> ![STOP_IMG](./images/stop_medium_size.png?30) 不安装核心组可能导致系统不能启动或者不能完成安装。谨慎使用。
 
 另外，%packages区块指定安装组时，可以使用以下选项：
   + --nodefualts
